@@ -1,4 +1,4 @@
-public class NetworkTest {
+public class NetworkTest {git
     public static void main(String[] args) {
         System.out.println("Testing the Network class...\n");
 
@@ -8,7 +8,7 @@ public class NetworkTest {
 
         System.out.println("Bar is a user in this network: " + ((dummyNet.getUser("Bar") != null) ? true : false));
         System.out.println("Gil is a user in this network: " + ((dummyNet.getUser("Gil") != null) ? true : false));
-     
+        
         System.out.println("\n...Now starts the serious testing...");
         
         // Creates a network with a maximum capacity of 1000 users
